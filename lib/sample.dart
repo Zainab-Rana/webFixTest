@@ -8,6 +8,7 @@ class Smaple extends StatefulWidget {
 class _SmapleState extends State<Smaple> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+        body: Container());
   }
 }

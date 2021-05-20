@@ -45,7 +45,7 @@ class MessageView extends StatelessWidget {
           child: Padding(
         padding: const EdgeInsets.all(8),
         child: Column(children: [
-          row('Triggered application open', args.openedApplication.toString()),
+          row('Triggered application open app', args.openedApplication.toString()),
           row('Message ID', message.messageId),
           row('Sender ID', message.senderId),
           row('Category', message.category),

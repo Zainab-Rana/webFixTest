@@ -9,6 +9,10 @@ class _SmapleState extends State<Smaple> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Container());
+        body: Column(
+          children: [
+            Container(),
+          ],
+        ));
   }
 }
